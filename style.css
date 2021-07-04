@@ -18,7 +18,7 @@ nav{
 
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 5%;
 }
 #pdfs{
     color: red;
@@ -59,6 +59,7 @@ body{
 
 .footer-section{
     background:#03256C;
+
     opacity: 0.9;
     background-blend-mode: lighten;
     
@@ -69,13 +70,13 @@ body{
     margin-bottom:1rem;
 }
 
-.footer .telegram-icon{
+.footer .icon{
     margin-left: 1rem;
 
 
 }
 
-.footer .telegram-link{
+.footer .link{
     text-decoration: none;
     color:white;
 
@@ -128,6 +129,7 @@ body{
     background-color:white;
     border-radius: 20%;
     width: 80%;
+    margin-left: 5rem;
 }
 
 /* Tips */
@@ -167,20 +169,21 @@ li{
         height: 20rem;
         width:10rem;    
     }
+    
 
 }
 /* Hr */
 .nav_items{
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: large;
 }
-.footerre{
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-.footerre:hover{
-    color: white;
-}
+
 h3{
     margin: 2rem;
 }
+
+
+
+
+
+
