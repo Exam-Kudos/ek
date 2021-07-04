@@ -6,6 +6,8 @@
   <title>Exam Kudos</title>
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Java Script Lert Plugin Query -->
+
 
   <!-- google-font-hind -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,14 +56,15 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
+            
             <li class="nav-item">
-              <a class="nav-link" href="#title">Home </a>
+              <a class="nav-link nav_items" href="#pdf">PDF </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pdf">PDF </span></a>
+              <a class="nav-link nav_items" href="#tips">Tips</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#tips">Tips</span></a>
+              <a class="nav-link nav_items" href="#supports">Support</span></a>
             </li>
           </ul>
       </nav>
@@ -69,12 +72,11 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1>Get latest <span> PDF</span> of MCQ For all Courses For Free.</h1>
+          <h1>Get latest <span ><a id="pdfs"   href="#pdf"> PDF</a></span> of MCQ For all Courses For Free.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button" onclick="showalert()"><i class="fab fa-apple"></i>
             Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button" onclick="showalert()" id="hello"><i
               class="fab fa-google-play"></i> Download</button>
-          <h3>Coming Soon</h3>
         </div>
 
         <div class="col-lg-6 front">
@@ -87,19 +89,18 @@
   </section>
 
 
-  <!-- Cards  -->
+<!-- Notes -->
 
 
-
+  <hr class="hr-heading">
+  <div class="container-fluid">
+    <h2 class="heading">Notes</h2>
+  </div>  
   <section class="cards" id="pdf">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <div>
-            <h2 class="heading">Courses</h2>
-            <hr class="hr-heading">
 
-          </div>
 
         </div>
         <div class="col-lg-6">
@@ -111,7 +112,7 @@
               <h5 class="card-title">Electrical and Tele-Communication</h5>
               <p class="card-text">Work with microprocessors, fiber optics, television, telecommunication,radios etc.
               </p>
-              <a href="https://drive.google.com/drive/folders/1T6E1CnkYd96S_Ox5iPyTO1IKtdaRYQPA?usp=sharing"
+              <a href="#"
                 class="btn btn-dark" target="blank">Explore PDF</a>
             </div>
           </div>
@@ -125,7 +126,7 @@
               <h5 class="card-title">Mechanical Engineering </h5>
               <p class="card-text">design power-producing machines, such as electric generators, internal combustion
                 engines, and steam and gas turbines , etc </p>
-              <a href="https://drive.google.com/drive/folders/118sqQ2pxz_bVz67SjfRoU0ZZtXS1Vk9x?usp=sharing"
+              <a href="#"
                 target="blank" class="btn btn-dark">Explore PDF</a>
             </div>
           </div>
@@ -139,24 +140,24 @@
               <h5 class="card-title">Computer Engineering</h5>
               <p class="card-text">Work that integrates several fields of computer science and electronic engineering
                 required to develop computer hardware and software</p>
-              <a href="https://drive.google.com/drive/folders/1qzwJ9jXPbkF_Em5714m9wwo-nejPQPh8?usp=sharing"
+              <a href="#"
                 class="btn btn-dark" target="blank">Explore PDF</a>
             </div>
           </div>
 
         </div>
+       
 
 
         <div class="col-lg-6 ">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top"
-              src="https://thumbs.dreamstime.com/b/innovative-architecture-civil-engineering-plan-building-construction-project-creative-graphic-design-showing-concept-171270547.jpg"
-              Card image cap">
-            <div class="card-body">
+              src="https://thumbs.dreamstime.com/b/innovative-architecture-civil-engineering-plan-building-construction-project-creative-graphic-design-showing-concept-171270547.jpg">
+              <div class="card-body">
               <h5 class="card-title">Civil Engineering</h5>
               <p class="card-text ">Deals with planning and oversee construction and rebuilding, bridges, tunnels,
                 railways, dams, and airports.</p>
-              <a href="https://drive.google.com/drive/folders/1K8Xoy5mjMnAHQYPOT9VRLjlm5mWNG2kZ?usp=sharing"
+              <a href="#"
                 class="btn btn-dark" target="blank">Explore PDF</a>
             </div>
           </div>
@@ -164,6 +165,7 @@
         </div>
       </div>
   </section>
+  <hr class="hr-heading">
 
   <!-- tips -->
   <section id="tips">
@@ -172,8 +174,9 @@
         <!-- heading -->
         <div class="col-lg-12">
           <div>
+            
             <h2 class="heading">Tips</h2>
-            <hr class="hr-heading">
+            
           </div>
         </div>
         <!-- end of heading -->
@@ -182,10 +185,11 @@
           <hr style="border:1px solid gray">
           <div class="tips-content">
             <ol type="1">
-              <li>&nbsp;&nbsp;Merge all the pdf you have .</li>
+              <li>&nbsp;&nbsp;Merge all the pdf you have .&nbsp;&nbsp;<i class="far fa-hand-pointer fa-2x hand"></i><a href="https://www.ilovepdf.com/merge_pdf" target="_blank"><i class="fas fa-file-alt fa-2x"></i></a></li>
               <li>&nbsp;&nbsp;Click to upload the pdf on google pdf viewer .&nbsp;&nbsp; <i
                   class="far fa-hand-pointer fa-2x hand"></i> &nbsp;&nbsp;&nbsp;<a
-                  href="http://pdfviewer.softgateon.net/"><i class="fas fa-file-alt fa-2x"></i></a></li>
+                  href="http://pdfviewer.softgateon.net/" target="_blank"><i class="fas fa-file-alt fa-2x"></i></a></li>
+                  <li>&nbsp;&nbsp;Searches faster even your pdf have thousands of pages</li>
 
 
             </ol>
@@ -195,6 +199,35 @@
 
         </div>
       </div>
+      <hr class="hr-heading">
+      
+  </section>
+
+
+
+
+  <!-- Support -->
+  
+  <section id="tips">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- heading -->
+        <div class="col-lg-12">
+          <div>
+            <div>
+            
+              <h3 class="heading" id="supports">Support</h3>
+              <p class="support_text">Support Your Community by sharing notes, ebooks ,MCQ's pdf on telgram Channel. you can also share on mail</p>
+              
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+      
   </section>
 
 
@@ -207,6 +240,8 @@
             <div class="footer"><a href="https://t.me/joinchat/GyeY-hmkDB8uCO9L-K5Jbg" target="blank"
                 class="telegram-link"> Join Us At <i class="fab fa-telegram fa-2x telegram-icon"
                   style="color:#fcfdfd"></i></a></div>
+                  <div class="footerre"><a href = "mailto: examkudos@gmail.com">Email</a></div>
+
 
     </footer>
     </div>
